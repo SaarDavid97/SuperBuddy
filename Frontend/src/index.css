@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('.././public/option2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.no-background {
+  background-image: none !important;
+}
+
+
+.page-div {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.new-recipe-div {
+  padding-top: 300px;
+  padding-left: 100px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dialog-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
