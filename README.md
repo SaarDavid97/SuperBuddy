@@ -23,8 +23,14 @@ Before you begin, make sure you have the following installed:
    
 2. **Clone the github repository**
    ```bash
-   git clone https://github.com/SaarDavid97/SuperBuddy.git
+   git clone https://github.com/SaarDavid97/SuperBuddy.git superbuddy
    ```
+
+3. **Navigate to the project directory**
+   ```bash
+   cd superbuddy
+   ```
+
 
 
 ### Frontend Setup
@@ -32,7 +38,7 @@ Before you begin, make sure you have the following installed:
 1. **Navigate to the frontend directory and install dependencies:**
 
    ```bash
-   cd frontend
+   cd Frontend
    npm install
    ```
 
@@ -57,7 +63,7 @@ Before you begin, make sure you have the following installed:
 2. **Navigate to the backend directory:**
 
    ```bash
-   cd backend
+   cd superbuddy/Backend
    ```
 
 3. **Create a virtual environment and activate it:**
