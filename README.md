@@ -90,13 +90,13 @@ Before you begin, make sure you have the following installed:
 
 5. **Configure Environment Variables:**
 
-The backend application requires certain environment variables to be set. Create a .env file in the root of the iis_backend directory and add the following variables:
+The backend application requires certain environment variables to be set. Create a .env file in the root of the Backend directory and add the following variables:
 ```
 EDAMAM_APP_ID=value
 EDAMAM_API_KEY=value
 GOOGLE_API_KEY=value
 ```
-The values are provided inside the final report we've submitted in Moodle
+The values are provided inside the final report we've submitted in Moodle.
 
 6. **Start the backend server:**
 
