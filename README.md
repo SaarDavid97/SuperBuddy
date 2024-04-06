@@ -1,6 +1,8 @@
 # Project Setup Instructions
 Welcome to our project! Follow these instructions to get the frontend and backend of our application up and running on your system.
-This guide will help you set up the project on your local machine. The project consists of two main components: a frontend and a backend. Follow these steps carefully to get everything up and running.
+For a video demonstration, you can visit the next link: 
+
+https://drive.google.com/file/d/1fDnQAzdPYj46a0EascwoU5_YLASZYuOW/view?usp=sharing
 
 ## Prerequisites
 
@@ -97,6 +99,13 @@ EDAMAM_API_KEY=value
 GOOGLE_API_KEY=value
 ```
 The values are provided inside the final report we've submitted in Moodle.
+The first two variables are used to call the next API:
+https://api.edamam.com/api/recipes/v2
+
+The third variable is used for Gemini APIs.
+There are no specific access points for the APIs we call since we use the python SDK, but we use Gemini for image recognition, embeddings generation and providing description for dishes based on the ingredients included in their recipe.
+
+
 
 6. **Start the backend server:**
 
