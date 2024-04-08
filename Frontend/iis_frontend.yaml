@@ -1,9 +1,0 @@
-name: iis_frontend
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - nodejs
-postBuild:
-  - npm install
-
