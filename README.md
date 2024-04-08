@@ -83,6 +83,7 @@ Before you begin, make sure you have the following installed:
      python -m venv venv
      .\venv\Scripts\activate
      ```
+     *Make sure to use python>=3.9*
 
 4. **Install the required Python packages:**
 
